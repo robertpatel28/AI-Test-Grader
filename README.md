@@ -1,3 +1,23 @@
-# AI-Test-Grader
+# 🧠 AI-Powered Grading System
 
-Developed an intelligent automatic test grading system using a Retrieval-Augmented Generation (RAG) framework in Python. The system leveraged Azure OpenAI, Cognitive Search, and Blob Storage to retrieve relevant content and generate explainable, context-aware grading outputs. Designed a multi-agent architecture with specialized agents for search, validation, reporting, and orchestration, enabling efficient and consistent evaluation of open-ended student responses. This project demonstrated practical applications of natural language processing, semantic search, and modular AI workflows in educational technology.
+An intelligent, multi-agent application that automates the grading of student-submitted test files using Azure OpenAI, Azure Cognitive Search, and Azure Blob Storage. The system extracts answers, compares them to an answer key, calculates scores, and generates a readable report — all through orchestrated AI agents.
+
+---
+
+## 📌 Features
+
+- 🔍 **SearchAgent**: Extracts student answers from uploaded test files using Azure Cognitive Search and OpenAI GPT.
+- 📝 **GradingAgent**: Compares extracted answers with the answer key and calculates grades with detailed validation rules.
+- 📊 **ReportAgent**: Automatically generates a concise performance report based on grading output.
+- 🧠 **PlannerAgent**: Orchestrates all agents and manages user interaction through the command line.
+
+---
+
+## ⚙️ Tech Stack
+
+- **Language**: Python
+- **LLM**: Azure OpenAI GPT
+- **Data Search**: Azure Cognitive Search
+- **Storage**: Azure Blob Storage
+- **Authentication**: Azure Identity / Entra ID
+- **Environment Management**: `python-dotenv`
