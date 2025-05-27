@@ -1,0 +1,15 @@
+# Ignore Python cache
+__pycache__/
+*.pyc
+
+# Ignore virtual environment
+venv/
+
+# Ignore environment files
+.env
+
+# Ignore macOS files
+.DS_Store
+
+# Ignore requirements file
+requirements.txt
