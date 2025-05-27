@@ -1,1 +1,3 @@
 # AI-Test-Grader
+
+Developed an intelligent automatic test grading system using a Retrieval-Augmented Generation (RAG) framework in Python. The system leveraged Azure OpenAI, Cognitive Search, and Blob Storage to retrieve relevant content and generate explainable, context-aware grading outputs. Designed a multi-agent architecture with specialized agents for search, validation, reporting, and orchestration, enabling efficient and consistent evaluation of open-ended student responses. This project demonstrated practical applications of natural language processing, semantic search, and modular AI workflows in educational technology.
